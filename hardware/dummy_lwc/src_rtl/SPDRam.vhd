@@ -12,7 +12,7 @@
 --!             http://www.gnu.org/licenses/gpl-3.0.txt                         
 --! @note       This is publicly available encryption source code that falls    
 --!             under the License Exception TSU (Technology and software-       
---!             —unrestricted)                                                  
+--!             unrestricted)                                                  
 --------------------------------------------------------------------------------
 --! Description         : Single-port Distributed RAM 
 --! DataWidth(integer)  : Generic parameter for setting width of the memory
@@ -29,7 +29,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
---USE ieee.std_logic_unsigned.all;
 
 entity SPDRam is 
     generic (   DataWidth : integer ; 

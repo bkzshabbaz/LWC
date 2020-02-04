@@ -17,7 +17,7 @@
 --!             http://www.gnu.org/licenses/gpl-3.0.txt
 --! @note       This is publicly available encryption source code that falls
 --!             under the License Exception TSU (Technology and software-
---!             —unrestricted)
+--!             unrestricted)
 --------------------------------------------------------------------------------
 --! Description
 --!
@@ -30,8 +30,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
-use IEEE.math_real."ceil";
-use IEEE.math_real."log2";
 use work.NIST_LWAPI_pkg.all;
 use work.design_pkg.all;
 
